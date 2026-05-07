@@ -51,7 +51,7 @@ public class QueueMain {
                     Q.clear();
                     break;
             }
-        } while (pilih ==1 || pilih == 2 || pilih == 3 || pilih == 4 || pilih == 5);
+        } while (pilih != 6);
 
         sc.close();
     }
